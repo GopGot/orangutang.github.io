@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: #CDC3C6;
+    width: 1572px;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+.container2 {
+    background-color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1572px;
+}
+.container3 {
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1572px;
+}
+.h2 h2 {
+    background-color: #94AA2A;
+    color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.container .divarticle {
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.container .article {
+    margin-right: auto;
+    width: 510px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-left: auto;
+    float: left;
+    background-color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #183629;
+}
+.container .aside {
+    margin-left: auto;
+    float: right;
+    clear: right;
+    margin-right: auto;
+    width: 607px;
+    padding-left: 100px;
+    padding-top: 55px;
+    background-color: #FFFFFF;
+    padding-bottom: 55px;
+    padding-right: 100px;
+
+}
+
+
+
+.container .header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+
+
+}
+.container .buttons {
+    width: 1572px;
+    height: 225px;
+}
+
+.container .buttons .button {
+    width: 500px;
+    height: 160px;
+    background-color: #FF7400;
+}
+
+.container .buttons .button2 {
+    width: 500px;
+    height: 160px;
+    background-color: #FF7400;
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+}
+.container .buttons .button3 {
+    height: 160px;
+    width: 500px;
+    background-color: #FF7400;
+}
+
+
+.buttons .button .image {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.buttons .button .textbutton {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 65px;
+    margin-right: 25px;
+    font-size: large;
+}
+.footer {
+    background-color: #94AA2A;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    width: 1558px;
+    height: 100px;
+    margin-top: auto;
+    clear: both;
+}
+
+.container h1 {
+    text-align: left;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #E86E10;
+}
+.invisiblocontainer {
+    height: 260px;
+}
+
+.container h2 {
+    color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container .h2 {
+    margin-bottom: 25px;
+    background-color: #94AA2A;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {margin: 0; padding: 0;}
+
+
+
+
+
+
+
+    
+  nav {
+    margin: 0px auto;
+    max-width: 100%;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #94AA2A;
+}
+
+
+.navigation {
+    padding: 0;
+    margin: 0;
+    max-width: 700px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+      
+            
+
+
+.navigation li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    align-self: center;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 15px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+
+}  
+        
+.navigation li a:hover {
+    color:#232323;
+  text-decoration: none;
+  background-color:#CBBFAF;
+  align-self: center;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+
+} 
+         
+.header {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    clear: none;
+    text-align: center;
+    border-bottom: thick solid #CDC3C6;
+    padding-bottom: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #1E3B14;
+}
+
+
+
+
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 1 0 30vw;
+    flex-wrap: wrap;
+}
+.menu li {
+  margin: 0 1rem;
+    padding: 10px;
+ 
+}
+li a {
+    font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
+text-decoration: none;
+    color: black;
+ 
+}
+.menu-1 {
+  box-pack: end;
+  justify-content: flex-end;
+}
+
+.logo {
+ 
+  flex: 0 1 20vw;
+  text-align: center;
+}
+.logo img {
+  width: 100px;
+}
+roundimg {
+    border-radius: 50%;
+}
+.writing .labout.lifestyle .somefacts {
+    width: 424px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 35px;
+    height: 230px;
+}
+.divv {
+    width: 1572px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    height: 304px;
+}
+
+
+.btn-group button {
+    background-color: #94AA2A; /* Green background */
+    border: 10px solid #FFFFFF; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    width: 524px;
+    font-size: large;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px;
+    margin-top: 10px;
+}
+.tab .tablinks {
+    width: 523px;
+}
+.tab .tablinks p {
+
+}
+
+
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+    color: #1D1B1E;
+}
+.PIC {
+    text-align: center;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: #94AA2A;
+    float: left;
+    border: 10px solid #FFFFFF;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+    border: 10px solid #D5D5D5;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #171414;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #3E8E41;
+    border: 10px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+    text-align: left;
+    width: 1032px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 290px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
